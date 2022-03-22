@@ -1,0 +1,25 @@
+#background {
+    @apply flex h-auto min-h-screen;
+    background-color: #001529;
+}
+
+#container {
+    @apply md:flex; 
+    @apply w-1/2;
+    @apply h-auto;
+    @apply rounded-lg;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+}
+
+#form {
+    margin: 20px auto;
+    width: 80%;
+    text-align: left;
+}
+
+#button {
+    width: 100%;
+    margin-top: 20px;
+}
